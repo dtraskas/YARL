@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yarlcomp", "src\yarlcomp\yarlcomp.csproj", "{32858DF1-FC65-4C71-9B18-BFA7CB8318FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yarltest", "tests\yarltest\yarltest.csproj", "{D6AE4757-A195-4530-877C-F8F2C6DBD33D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32858DF1-FC65-4C71-9B18-BFA7CB8318FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32858DF1-FC65-4C71-9B18-BFA7CB8318FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32858DF1-FC65-4C71-9B18-BFA7CB8318FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32858DF1-FC65-4C71-9B18-BFA7CB8318FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6AE4757-A195-4530-877C-F8F2C6DBD33D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6AE4757-A195-4530-877C-F8F2C6DBD33D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6AE4757-A195-4530-877C-F8F2C6DBD33D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6AE4757-A195-4530-877C-F8F2C6DBD33D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,31 @@
+# Ignore file for Visual Studio 2013
+# use glob syntax
+syntax: glob
+
+# Ignore Visual Studio 2013 files
+*.ncb
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.scc
+Thumbs.db
+[Bb]in/
+obj/
+[Dd]ebug*/
+[Rr]elease*/
