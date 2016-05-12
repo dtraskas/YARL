@@ -11,6 +11,53 @@ Prerequisites
 - .NET 4.5.1
 - ANTLR 3
 
+
+Example Code
+------------
+```
+/*
+	YARL Example Code
+	version v1.0
+
+	Dimitrios Traskas
+*/
+
+fuzzyvar water	
+	range (0, 100)		
+begin
+	set_\ (cold, 0, 40)
+	set_/\(tepid, 30, 50, 70)	
+	set_/\ (hot, 50, 80, 100)
+end
+
+fuzzyvar power
+	range (0, 75)	
+begin
+	set_/\ (low, 0, 25, 50)
+	set_/\ (high, 25, 50, 75)
+end
+
+rule r1
+when 
+	($water is cold) or ($water is tepid)
+then 
+	$power is high
+end
+
+rule r2	
+when 
+	($water is hot)
+then 
+	$power is low
+end
+
+ruleset rset1 
+	desc ("ruleset one")
+	contains all
+
+execute (rset1)
+```
+
 How to contribute
 -----------------
 
